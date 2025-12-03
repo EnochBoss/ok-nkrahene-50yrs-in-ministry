@@ -18,7 +18,7 @@ export default function BookLaunch() {
         {/* BOOK COVER IMAGE FULL WIDTH */}
         <div className="w-full">
           <img
-            src="/book-cover.jpg"
+            src="/book-cover-sm.jpg"
             alt="Book cover"
             className="w-full h-auto object-cover"
           />

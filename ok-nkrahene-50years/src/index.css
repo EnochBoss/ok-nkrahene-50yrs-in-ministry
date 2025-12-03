@@ -117,3 +117,18 @@ html.dark body {
 .animate-shimmer {
   animation: shimmer 2.5s ease-in-out infinite;
 }
+
+
+/* Global tokens & existing styles here ... */
+
+/* Force browser system UI to dark */
+html.dark {
+  color-scheme: dark;
+}
+
+/* Optional: override all inputs, textareas, selects to dark */
+input, textarea, select, button {
+  background-color: var(--surface);
+  color: var(--text);
+  border-color: #034142; /* match dark surface */
+}

@@ -26,7 +26,7 @@ export default function Home() {
         
         <div className="md:flex md:items-center md:gap-8">
           <div className="md:flex-1">
-            <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-700 dark:text-blue-300">Celebrating 50 Years of Ministry</h1>
+            <h1 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-700 dark:text-[var(--text)]/85">Celebrating 50 Years of Ministry</h1>
             <p className="text-lg mb-4 text-gray-700 dark:text-gray-300">
               Join family, friends, and congregants to honor Rev. O. K. Nkrahene's 50 years of service and witness the book launch celebrating his life and legacy.
             </p>

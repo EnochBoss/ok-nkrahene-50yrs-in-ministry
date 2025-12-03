@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden py-32 
+    <section className="relative overflow-hidden pb-12 pt-8
       bg-[var(--bg)] dark:bg-[var(--surface)] text-[var(--text)] transition-colors duration-300">
 
       {/* Top curved glow */}
@@ -43,7 +43,7 @@ export default function Hero() {
           <p className="text-[var(--muted)] mb-6 text-lg leading-relaxed">
             Celebrating the life, impact and unwavering dedication of{" "}
             <span className="font-semibold text-[var(--text)]">
-              <br/>Rev. O. K. Nkrahene
+              Rev. O. K. Nkrahene
             </span>{" "}
             — a legacy of leadership, faith, and transformation.
           </p>
@@ -97,7 +97,7 @@ export default function Hero() {
 
             {/* Portrait */}
             <img
-              src="/kente-pic.png"
+              src="/kente-pic-sm.png"
               alt="Rev. O. K. Nkrahene"
               className="
                         w-[320px] 
