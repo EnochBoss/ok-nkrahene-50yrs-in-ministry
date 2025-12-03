@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+/* design tokens (colors) */
+:root {
+  --bg: #fefcf9;           /* light background - warm off-white */
+  --surface: #ffffff;       /* card / surface */
+  --text: #f3f3f4;         /* primary text (slate-800) */
+  --muted: #6b7280;        /* secondary text (slate-500) */
+  --accent: #f59e0b;       /* accent / interactive (amber-500) */
+  --link: #014b3f;         /* link color (blue-800) */
+  --gold-light: #fbbf24;   /* gold highlight for decoration */
+  --gold-dark: #d97706;    /* darker gold for hover & emphasis */
+}
+
+html.dark {
+  --bg: #01191a;            /* dark page bg */
+  --surface: #033a3c;       /* surface in dark */
+  --text: #f3f4f6;          /* light text */
+  --muted: #88b0b2;         /* muted text in dark */
+  --accent: #fcd34d;        /* bright gold accent */
+  --link: #ffffff;          /* link color in dark (blue-400) */
+  --gold-light: #fcd34d;    /* gold highlights in dark */
+  --gold-dark: #d97706;     /* deeper gold for shadows */
+}
+
+/* global tweaks */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* apply tokens */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+/* surfaces (cards, navs) */
+.surface {
+  background-color: var(--surface);
+  color: var(--text);
+  transition: background-color 300ms ease, color 300ms ease;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  padding: 1.5rem;
+}
+
+/* utility helpers */
+.text-muted { color: var(--muted); }
+.text-accent { color: var(--accent); }
+.bg-accent { background-color: var(--accent); color: #000; }
+
+.text-gold { color: var(--gold-light); }
+.bg-gold { background-color: var(--gold-light); color: #000; }
+.bg-gold-dark { background-color: var(--gold-dark); }
+
+/* link/button defaults */
+a, button {
+  color: var(--link);
+  transition: filter 200ms ease, color 200ms ease, background-color 200ms ease;
+}
+a:hover, button:hover {
+  filter: brightness(0.9);
+}
+
+/* dark mode fallback if .dark is present */
+html.dark body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* optional: add a smooth transition for cards and surfaces */
+.surface, a, button {
+  transition: all 300ms ease;
+}
+
+/* Animation for hero section */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes float-delayed {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(14px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes float-slow {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes float-slow-delayed {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float { animation: float 5s ease-in-out infinite; }
+.animate-float-delayed { animation: float-delayed 5.8s ease-in-out infinite; }
+.animate-float-slow { animation: float-slow 7s ease-in-out infinite; }
+.animate-float-slow-delayed { animation: float-slow-delayed 7.2s ease-in-out infinite; }
+
+@keyframes shimmer {
+  0% { opacity: .2; }
+  50% { opacity: 1; }
+  100% { opacity: .2; }
+}
+.animate-shimmer {
+  animation: shimmer 2.5s ease-in-out infinite;
+}
