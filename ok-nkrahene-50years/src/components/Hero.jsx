@@ -67,7 +67,7 @@ export default function Hero() {
               View Programme
             </motion.a>
 
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.07 }}
               whileTap={{ scale: 0.97 }}
               href="testimonials"
@@ -77,7 +77,7 @@ export default function Hero() {
                 transition-all"
             >
               Testimonials
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
 

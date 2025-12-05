@@ -1,7 +1,7 @@
 export default function DownloadProgramme() {
   return (
     <a
-      href="/programme.pdf"
+      href="/programme-final.pdf"
       download
       className="
         inline-block px-4 py-2 rounded shadow transition

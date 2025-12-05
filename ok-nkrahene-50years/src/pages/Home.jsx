@@ -25,9 +25,9 @@ export default function Home() {
         </div>
 
         {/* Testimonials */}
-        <div className="mt-10">
+        {/* <div className="mt-10">
           <TestimonialsByTheme />
-        </div>
+        </div> */}
 
         {/* Highlight Section */}
         <div className="mt-12 flex flex-col md:flex-row md:items-start md:gap-8">
@@ -51,14 +51,14 @@ export default function Home() {
               >
                 View Programme
               </a>
-              <a
+              {/* <a
                 href="/testimonials"
                 className="px-6 py-3 rounded-full font-semibold w-full sm:w-auto text-center
                 border border-[var(--gold-light)]
                 hover:bg-[var(--gold-light)] hover:text-black transition-all"
               >
                 Watch Testimonials
-              </a>
+              </a> */}
             </div>
           </div>
 

@@ -13,8 +13,8 @@ export default function Programme() {
   const programme = [
     { activity: "Arrival and Registration", facilitator: "Ushers/Registration Team" },
     { activity: "Opening Prayer", facilitator: "Rev. Mrs. Marian Kwarteng" },
-    { activity: "Welcome and Introduction of Co-Chairman", facilitator: "Mrs. Adjei-Sam" },
-    { activity: "Co-Chairman’s Response & Purpose of Gathering", facilitator: "Mr. Osei Kwasi Nkrahene" },
+    { activity: "Welcome and Introduction of Chairman", facilitator: "Mrs. Adjei-Sam" },
+    { activity: "Chairman’s Response & Purpose of Gathering", facilitator: "Mr. Osei Kwasi Nkrahene" },
     { activity: "Thanksgiving & Celebration Music", facilitator: "Mrs. Lena Asare" },
     { activity: "Choral Song", facilitator: "Tabernacle Choir" },
     { activity: "Testimonies (1 Live, others in video)", facilitator: "MC/Media Team" },

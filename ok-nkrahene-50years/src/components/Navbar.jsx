@@ -9,10 +9,10 @@ export default function Navbar() {
     { name: "Home", path: "/" },
     { name: "Programme", path: "/programme" },
     { name: "Venue", path: "/venue" },
-    { name: "Testimonials", path: "/testimonials" },
+    // { name: "Testimonials", path: "/testimonials" },
     { name: "Photo Gallery", path: "/gallery" },
     { name: "Book", path: "/book-launch" },
-    { name: "Wishes", path: "/wishes" },
+    // { name: "Wishes", path: "/wishes" },
   ];
 
   const handleLinkClick = () => setIsOpen(false);
