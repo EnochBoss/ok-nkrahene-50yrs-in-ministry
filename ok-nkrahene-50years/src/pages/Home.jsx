@@ -19,10 +19,10 @@ export default function Home() {
       <section className="bg-[var(--surface)] dark:bg-[var(--surface)] rounded-lg p-6 md:p-8 mb-8 shadow-md transition-colors duration-300">
         <Hero />
 
-        {/* Event Countdown */}
+        {/* Event Countdown
         <div className="max-w-4xl mx-auto mt-[-30px] md:mt-6">
           <EventCountdown date={"2025-12-05T10:00:00"} />
-        </div>
+        </div> */}
 
         {/* Testimonials */}
         {/* <div className="mt-10">
@@ -33,16 +33,16 @@ export default function Home() {
         <div className="mt-12 flex flex-col md:flex-row md:items-start md:gap-8">
           {/* Text and CTA */}
           <div className="md:flex-1 flex flex-col gap-4">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--text)] dark:text-[var(--text)]/90">
+            {/* <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[var(--text)] dark:text-[var(--text)]/90">
               Celebrating 50 Years of Ministry
             </h1>
             <p className="text-base sm:text-lg text-[var(--muted)] dark:text-[var(--muted)]/85">
               Join family, friends, and congregants to honor Rev. O. K. Nkrahene's 50 years of service and witness the book launch celebrating his life and legacy.
-            </p>
+            </p> */}
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-3 mt-4">
-              <a
+              {/* <a
                 href="/programme"
                 className="px-6 py-3 rounded-full font-semibold w-full sm:w-auto text-center
                 bg-[var(--gold-light)] text-black
@@ -50,7 +50,7 @@ export default function Home() {
                 hover:bg-[var(--gold-dark)] transition-all"
               >
                 View Programme
-              </a>
+              </a> */}
               {/* <a
                 href="/testimonials"
                 className="px-6 py-3 rounded-full font-semibold w-full sm:w-auto text-center
@@ -63,7 +63,7 @@ export default function Home() {
           </div>
 
           {/* Countdown Box */}
-          <div className="md:w-96 mt-6 md:mt-0 mx-auto md:mx-0">
+          {/* <div className="md:w-96 mt-6 md:mt-0 mx-auto md:mx-0">
             <div className="bg-[var(--surface)] dark:bg-[var(--surface)] rounded-lg p-4 shadow-md transition-colors duration-300">
               <h3 className="text-center font-bold mb-2 text-[var(--text)] dark:text-[var(--text)]/90">Event Countdown</h3>
               <EventCountdown date={"2025-12-05T10:00:00"} />
@@ -71,7 +71,7 @@ export default function Home() {
                 Venue: First Baptist Church Auditorium
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 

@@ -48,14 +48,14 @@ export default function Hero() {
             — a legacy of leadership, faith, and transformation.
           </p>
 
-          <p className="text-[var(--accent)] font-bold mb-10 text-center md:text-left">
+          {/* <p className="text-[var(--accent)] font-bold mb-10 text-center md:text-left">
             • Ceremony & Book Launch •<br />
             Friday, 5th December 2025
-          </p>
+          </p> */}
 
           {/* CTA BUTTONS */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full">
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.07 }}
               whileTap={{ scale: 0.97 }}
               href="/programme"
@@ -65,7 +65,7 @@ export default function Hero() {
                 hover:bg-[var(--gold-dark)] transition-all"
             >
               View Programme
-            </motion.a>
+            </motion.a> */}
 
             {/* <motion.a
               whileHover={{ scale: 1.07 }}
