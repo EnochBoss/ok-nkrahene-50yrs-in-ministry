@@ -32,9 +32,9 @@ export default function BookLaunch() {
           <p className="mb-4 text-[var(--muted)] dark:text-[var(--muted)]">
             This commemorative book tells the story of Rev. O. K. Nkrahene's life and ministry across five decades.
           </p>
-          <p className="mb-4 text-sm text-[var(--muted)] dark:text-[var(--muted)]">
+          {/* <p className="mb-4 text-sm text-[var(--muted)] dark:text-[var(--muted)]">
             Purchase proceeds will go to the church development fund.
-          </p>
+          </p> */}
           <div className="flex flex-wrap gap-3 mt-4">
             <a
               href={buyLink}
@@ -44,12 +44,12 @@ export default function BookLaunch() {
             >
               Buy / Order
             </a>
-            <a
+            {/* <a
               href="/programme.pdf"
               className="border border-[var(--gold-light)] dark:border-[var(--gold-dark)] px-4 py-2 rounded hover:bg-[var(--gold-light)] dark:hover:bg-[var(--gold-dark)] transition"
             >
               Download Programme
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
